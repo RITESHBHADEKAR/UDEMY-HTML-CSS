@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crystal sky || Contact Us</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+</head>
+<body>
+        <!-- header -->
+    <header>
+        <div class="header-title">
+            <h1>Crystal sky</h1>
+            <h3>Photography</h3>
+        </div>
+    </header>
+    <!-- end of header -->
+   <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fa fa-bars"></i>
+    </span>
+    <!-- navbar -->
+    <nav class="navbar showNav" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+        <ul class="nav-items">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <!-- <li><a href="#services" class="nav-link">services</a></li> -->
+          <li><a href="work.html" class="nav-link">about</a></li>
+          <li><a href="form.html" class="nav-link">contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="clearfix section-center form">
+        <span><h1>Contact Form</h1></span>
+        <form  action="https://formspree.io/f/xbjejooz" method="post">
+            <div class="form-group">
+                <input type="text" placeholder="name" name="Name" class="form-item" >
+                <input type="text" placeholder="Last Name" name="Last Name"  class="form-item">
+                <input type="tel"  placeholder="Mobile number" name="Mobile number" class="form-item">
+                <input type="Email" placeholder="Email "name="Email"  class="form-item" required> 
+                <select name="country" id="contry" class="form-item">
+                    <option value="india">India</option>
+                    <option value="japan">japan</option>
+                    <option value="America">America</option>
+                    <option value="china">china</option>
+                    <option value="Portugal">portugal</option>
+                </select>
+                <button  class="btn btn2" type="submit">Submit </button>
+            </div>
+        </form>
+    </div>
+
+
+        <footer class="footer">
+            <div class="section-center clearfix">
+                <!-- social icons -->
+          <a href="#" class="social-icons"><i class="fab fa-facebook"></i> </a>
+          <!-- end of social icons -->
+          <!-- social icons -->
+          <a href="#" class="social-icons"><i class="fab fa-twitter"></i> </a>
+          <!-- end of social icons -->
+          <!-- social icons -->
+          <a href="#" class="social-icons"><i class="fab fa-instagram"></i> </a>
+          <!-- end of social icons -->
+            </div>
+            <h4 class="footer-text">
+          &copy; <span id="date">2023</span> <span class="company">Crystal Sky</span> all rights reserved
+        </h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
